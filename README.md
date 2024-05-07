@@ -6,16 +6,16 @@
 
 Imaginemos que ya existe la página web del Banco de Springfield, y yo sere la encargada de diseñar la parte del sitio que le muestra al usuario la información de su cuenta bancaria personal.
 
-Diseñe la página de cuenta del cliente, que tiene la siguiente estructura:
+*Diseñe la página de cuenta del cliente, que tiene la siguiente estructura:*
 
-1. Banco de Springfield
-2. Springfield, IL
-3. [Nombre del cliente]
-4. Nro cuenta: [numero de cuenta]
-5. [monto dólres] USD
-6. [monto euros] EUR
-7. CBU: [Número CBU]
-8. Abierta:[fecha de apertura]
+* Banco de Springfield
+*  Springfield, IL
+*  Nombre del cliente
+*  Nro cuenta: [numero de cuenta]
+*  monto dólres USD
+*  monto euros EUR
+*  CBU: [Número CBU]
+* Abierta:[fecha de apertura]
 
 
 
