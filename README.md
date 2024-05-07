@@ -8,7 +8,8 @@ Imaginemos que ya existe la página web del Banco de Springfield, y yo sere la e
 
 Diseñe la página de cuenta del cliente, que tiene la siguiente estructura:
 <div>
-  <li>
+  <ul>
+    <li>
 Banco de Springfield
 Springfield, IL
 [Nombre del cliente]
@@ -18,7 +19,7 @@ Nro cuenta: [numero de cuenta]
 CBU: [Número CBU]
 Abierta:[fecha de apertura]
   </li>
-
+  <ul/>
 </div>
 
 
