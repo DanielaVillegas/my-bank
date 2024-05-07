@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="banco.js"></script>
+</head>
+
+<body onload="cargarResumen()">
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="logo.png" width="100%" />
+            </div>
+            <div>
+                <b>Nro cuenta</b>
+                <label id="cuenta"></label>
+            </div>
+            <h1 id="banco"></h1>
+            <h2 id="sucursal"></h2>
+        </div>
+        <div class="balance">
+            <div class="currency-container">
+                <div class="currency-icon">
+                    <img src="signo-de-dolares.png" width="100%">
+                </div>
+                <p class="fila" id="usd"></p>
+            </div>
+            <div class="currency-container">
+                <div class="currency-icon">
+                    <img src="euro-symbol.png" width="100%">
+                </div>
+                <p class="fila" id="eur"></p>
+            </div>
+        </div>
+    </div>
+   
+    <div class="containerTwo">
+        <p>
+            <b>CBU:</b>
+            <label id="cbu"></label>
+        </p>
+        <p>
+            <b>Abierto:</b>
+            <label id="abierto"></label>
+        </p>
+    </div>
+</body>
+
+</html>
